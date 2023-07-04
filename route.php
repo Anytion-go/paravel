@@ -1,4 +1,9 @@
 <?php
+/*  * Copyright (c) 2023 Nawasan Wisitsingkhon
+    *
+    * This source code is licensed under the MIT license found in the
+    * LICENSE file in the root directory of this source tree.
+*/
 class Route
 {
     public static function showError(bool $show = true): void
