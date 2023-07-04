@@ -11,6 +11,10 @@
         "dotenv": {
             "version": "main",
             "url": "https://github.com/Arikato111/php-dotenv/tree/main"
+        },
+        "paravel": {
+            "version": "main",
+            "url": "https://github.com/Anytion-go/paravel/tree/modules"
         }
     }
 }

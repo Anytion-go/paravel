@@ -1,4 +1,10 @@
 <?php
+/*  * Copyright (c) 2023 Nawasan Wisitsingkhon
+    *
+    * This source code is licensed under the MIT license found in the
+    * LICENSE file in the root directory of this source tree.
+*/
+
 class DB_MODELS
 {
     protected $connect;
@@ -6,6 +12,7 @@ class DB_MODELS
 
     public function __construct()
     {
+
         $this->connect = new mysqli(
             $_ENV['DB_HOST'],
             $_ENV['DB_USERNAME'],
