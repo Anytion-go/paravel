@@ -1,12 +1,13 @@
 <?php
-require('./modules/use-import/main.m.php'); 
+require('./modules/use-import/main.m.php');
 // **** import libraries type version here ****** //
 
 
 // ********** //
-import('paravel'); 
+import('paravel');
 import('paravel/auto-import');
-import('dotenv')->config();
+if (file_exists('./.env'))
+    import('dotenv')->config();
 import('paravel/route');
 import('paravel/database');
 // ********** //
