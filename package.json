@@ -1,0 +1,16 @@
+{
+    "name": "mvc-php",
+    "version": "1.0.0",
+    "description": "simple mvc for php",
+    "author": "",
+    "package": {
+        "use-import": {
+            "version": "main",
+            "url": "https://github.com/Arikato111/use-import/tree/master"
+        },
+        "dotenv": {
+            "version": "main",
+            "url": "https://github.com/Arikato111/php-dotenv/tree/main"
+        }
+    }
+}
